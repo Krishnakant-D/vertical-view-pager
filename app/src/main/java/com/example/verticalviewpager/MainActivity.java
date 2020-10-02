@@ -22,11 +22,11 @@ public class MainActivity extends AppCompatActivity {
 
 
         models=new ArrayList<>();
-        models.add(new Model(R.drawable.ic_launcher_background,"titlesafsdflknad asfdjlkasj;fdl sdfjaslfjdl;asjdf;al"));
-        models.add(new Model(R.drawable.ic_launcher_background,"titlesafsdflknad asfdjlkasj;fdl sdfjaslfjdl;asjdf;al"));
-        models.add(new Model(R.drawable.ic_launcher_background,"titlesafsdflknad asfdjlkasj;fdl sdfjaslfjdl;asjdf;al"));
-        models.add(new Model(R.drawable.ic_launcher_background,"titlesafsdflknad asfdjlkasj;fdl sdfjaslfjdl;asjdf;al"));
-        models.add(new Model(R.drawable.ic_launcher_background,"titlesafsdflknad asfdjlkasj;fdl sdfjaslfjdl;asjdf;al"));
+        models.add(new Model(R.drawable.DSA,"Course:DSA\n\nAuthor:Drozek"));
+        models.add(new Model(R.drawable.DLD,"Course:DLD\nAuthor:Morris Mano"));
+        models.add(new Model(R.drawable.DAA,"Course:DAA\nAuthor:Cormen"));
+        models.add(new Model(R.drawable.OS,"Course:OS\nAuthor:Silberschatz"));
+        models.add(new Model(R.drawable.DM,"Course:DM\nAuthor:Kenneth H.Rosen"));
 
         adapter=new Adapter(models,this);
 
